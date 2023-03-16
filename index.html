@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabnam Tour and travels</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sabnam Tour and travels</h1>
+    </header>
+    <main>
+
+        <div>
+            <p><h3>Travel Request Form</h3></p>
+        <h6>Fill out this travel request form will all the details required and state <br>
+            the purpose of your inquiry. based on the details you provide , we will inform <br> you if your request will be approved</h6>
+        <hr>    
+        </div>
+        <form action="xyz.php" method="post">
+        <div>
+            <label for="name"> Traveler's Name : </label>
+            <input required type="text" name="firstName" id="name" placeholder="First">
+            <input required type="text" name="lastName" id="name" placeholder="Last">
+        </div>
+        <div>
+            <label for="myfather">Father's Name</label>
+            <input type="text" name="myfather" id="myfather">
+        </div>
+        <div>
+            <label for="myMother">Mother's Name</label>
+            <input type="text" name="myMother" id="myMother">
+        </div>
+        <div>
+            <label for="email">Email : </label>
+            <input  type="email" name="myEmail" id="email" required>
+        </div>
+        <div>
+            <label for="dept">Traveler's Department : </label>
+            <select name="Traveler's Department" id="dept">
+                <option value="CSE">CSE</option>
+                <option value="IT">IT</option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Civil">Civil</option>
+                <option value="Chemical">Chemical</option>
+                <option value="EE">EE</option>
+                <option value="ETCE">ETCE</option>
+                <option value="Production">Production</option>
+                <option value="FTBE">FTBE</option>
+                <option value="Power">Power</option>
+                <option value="Architecture">Architecture</option>
+                <option value="IEE">IEE</option>
+                
+            </select>
+
+
+        </div>
+        <div>
+            <label for="numb"> Phone Number :</label>
+            <input type="text" name="num" id="numb" placeholder="### ### ####">
+        </div>
+        <div>
+            <label for="purpose">Purpose of travelling : </label> <br>
+            <textarea name="Purpose of travelling :" id="purpose" cols="20" rows="2">Enter your text</textarea>
+        </div>
+        <div>
+            <label for="DOD">Departure Day from : </label>
+            <input type="date" name="dateofdep" id="DOD">
+        </div>
+        <div>
+            <label for="DOR">To</label>
+            <input type="date" name="dateofret" id="DOR">
+        </div>
+        <div>
+            <label for="Accadd">Accommodation Address : </label> <br>
+            <input type="text" name="add1" id="Accadd" placeholder="street address">
+            <input type="text" name="add2" id="Accadd" placeholder="address line 2"> <br>
+            <input type="text" name="city"  placeholder="city">
+            <input type="text" name="region"  placeholder="region"> <br>
+            <input type="text" name="pincode"  placeholder="pincode">
+            <input type="text" name="country"  placeholder="country">
+        </div>
+        <label for="Estimated">Estimated trip expenses:</label> <br>
+        <textarea name="est" id="Estimated" cols="30" rows="2"></textarea>
+        <div>
+            <input type="submit" value="Submit your travel request form" >
+        </div>
+        </form>
+        
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
